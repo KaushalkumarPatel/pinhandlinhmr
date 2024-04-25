@@ -1,0 +1,4 @@
+string trace_id
+int8 time   # how long should the focus be triggered in seconds
+---
+bool command_executed

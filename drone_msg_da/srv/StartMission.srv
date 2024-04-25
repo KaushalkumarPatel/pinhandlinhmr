@@ -1,0 +1,7 @@
+string user_id
+string trace_id
+string savety_controller_timestamp
+string mission_hash
+---
+string user_id
+bool res

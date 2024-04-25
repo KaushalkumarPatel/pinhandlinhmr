@@ -1,0 +1,6 @@
+string user_id
+string trace_id
+string mode
+---
+string user_id
+bool command_executed

@@ -1,0 +1,5 @@
+string trace_id
+int8 photos         # how many photos per bracket 3/5/9
+float32 step_size   # how big the exposure steps should be
+---
+bool command_executed

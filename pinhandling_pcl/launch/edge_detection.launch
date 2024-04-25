@@ -1,0 +1,3 @@
+<launch>
+	<node name="edge_detection_node" pkg="pinhandling_pcl" type= "edge_detection_node" output="screen"/>
+</launch>

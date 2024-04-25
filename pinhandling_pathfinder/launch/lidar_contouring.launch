@@ -1,0 +1,3 @@
+<launch>
+	<node name="lidar_contouring" pkg="pinhandling_pathfinder" type= "lidar_contouring.py" output="screen"/>
+</launch>

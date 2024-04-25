@@ -1,0 +1,8 @@
+string user_id
+string trace_id
+Position   position
+int16          alt
+int16          velocity
+---
+bool res
+string user_id

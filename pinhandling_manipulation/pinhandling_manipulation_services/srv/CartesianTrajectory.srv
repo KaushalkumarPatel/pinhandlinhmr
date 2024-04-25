@@ -1,0 +1,9 @@
+float64 grab_Y
+float64 grab_Z
+float64 pin_X
+float64 pin_Y
+float64 pin_Z
+float64 degree
+uint32 points
+---
+float64[] trajectory

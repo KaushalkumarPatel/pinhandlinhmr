@@ -1,0 +1,6 @@
+string user_id
+string trace_id
+string path
+string filetype #The file ending for the picture file. Determines how it is saved (e.g. jpg/png/etc...)
+---
+bool photo_captured

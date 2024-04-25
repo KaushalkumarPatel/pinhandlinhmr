@@ -1,0 +1,12 @@
+bool    connected
+bool    armed
+string  int_mode
+string  control_mode
+string  mode
+uint8   system_status
+Battery battery
+Movement movement
+Gps     gps
+#Misc    misc
+Target next_target_coordinate
+StringMap[] connection_info

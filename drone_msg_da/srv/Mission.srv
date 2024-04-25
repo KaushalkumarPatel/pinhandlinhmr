@@ -1,0 +1,24 @@
+uint8 ECO = 0
+uint8 SAFE = 1
+string user_id
+string trace_id
+string[]        extra_ids
+string          mission_hash
+string          mission_id
+int16           take_off_altitude
+int16           epsg_code
+Waypoint[]  way_points
+Elp[]       safety_landing_points
+Geofence    flight_zone
+uint8           heading_mode
+---
+bool            res
+string          status
+string          mission_hash
+string          user_id
+string          mission_id
+string          safety_controller_timestamp
+float32         max_altitude
+float32         min_altitude
+string[]        start_and_landing_points
+string[]        fence_items

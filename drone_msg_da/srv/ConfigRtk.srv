@@ -1,0 +1,7 @@
+string trace_id
+string user
+string pw
+string url
+---
+string      service_response
+bool        res
