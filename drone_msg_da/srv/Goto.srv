@@ -1,9 +1,0 @@
-string user_id
-string trace_id
-float32     latitude
-float32     longitude
-float32     altitude
-float32     velocity
----
-string      user_id
-bool        res

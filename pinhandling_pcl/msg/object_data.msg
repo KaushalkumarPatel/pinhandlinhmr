@@ -1,4 +1,0 @@
-geometry_msgs/Point centroid
-geometry_msgs/Point obb_center
-geometry_msgs/Vector3 obb_dimensions
-geometry_msgs/Quaternion obb_rotation

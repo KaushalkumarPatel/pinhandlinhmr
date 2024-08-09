@@ -1,7 +1,0 @@
-string user_id
-string trace_id
-float32     pitch
-float32     yaw
----
-string user_id
-bool        res

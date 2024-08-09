@@ -1,2 +1,0 @@
-SoftwareStatus  software_status
-HardwareStatus  hardware_status

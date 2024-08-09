@@ -29,13 +29,14 @@ class TrackingNode:
 
         # pubs
         self._pub = rospy.Publisher("tracking", DetectionArray, queue_size=10)
+        #self.rate = rospy.Rate(1)  # 1 Hz
 
         # subs
         image_sub = message_filters.Subscriber("image_raw", Image)
         detections_sub = message_filters.Subscriber("detections", DetectionArray)
 
         self._synchronizer = message_filters.ApproximateTimeSynchronizer(
-            [image_sub, detections_sub], 1000, 0.1)
+            [image_sub, detections_sub], 50, 0.1)
         self._synchronizer.registerCallback(self.detections_cb)
 
     def create_tracker(self, tracker_yaml: str) -> BaseTrack:
@@ -113,6 +114,7 @@ class TrackingNode:
 
         # publish detections
         self._pub.publish(tracked_detections_msg)
+        #self.rate.sleep()
 
 
 if __name__ == '__main__':

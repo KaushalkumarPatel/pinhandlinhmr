@@ -1,5 +1,0 @@
-string user_id
-string trace_id
-string mission
----
-bool ret

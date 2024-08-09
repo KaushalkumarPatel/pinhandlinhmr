@@ -1,4 +1,0 @@
-string user_id
-string trace_id
----
-bool command_executed

@@ -1,5 +1,0 @@
-<launch>
-    <node name="trajectory_planner_bs_open_server" pkg="pinhandling_manipulation_services" type="lab_cartesian_trajectory_planner_bs_open_server.py" output="screen" />
-    <node name="trajectory_planner_bs_face_open_server" pkg="pinhandling_manipulation_services" type="lab_cartesian_trajectory_planner_bs_face_open_server.py" output="screen" />
-    <node name="trajectory_planner_bs_close_server" pkg="pinhandling_manipulation_services" type="lab_cartesian_trajectory_planner_bs_close_server.py" output="screen" />
-</launch>
